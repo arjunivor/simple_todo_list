@@ -79,8 +79,27 @@ button {
 
 main {
   flex: 1 1 0%;
-  padding: 1rem 2rem;
   max-width: 800px;
+  padding: 1rem 2rem;
   width: 100%;
   margin: 0 auto;
+}
+.task-list {
+  padding: 1rem;
+}
+
+.task-list h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--grey);
+  margin-bottom: 1rem;
+}
+
+#tasks.task {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--darkest);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
