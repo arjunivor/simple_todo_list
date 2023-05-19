@@ -46,5 +46,7 @@ window.addEventListener("load", () => {
     task_el.appendChild(task_actions_el);
 
     list_el.appendChild(task_el);
+
+    input.value = "";
   });
 });
