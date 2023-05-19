@@ -64,4 +64,23 @@ button {
   font-size: 1.25rem;
   font-weight: 700;
   background-image: linear-gradient(to right, var(--pink)), var(--purple);
+  -webkit-background-clip: text;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#new-task-submit:hover {
+  opacity: 0.8;
+}
+
+#new-task-submit:active {
+  opacity: 0.6;
+}
+
+main {
+  flex: 1 1 0%;
+  padding: 1rem 2rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
