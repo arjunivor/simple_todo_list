@@ -141,6 +141,9 @@ main {
 .task .actions .edit {
   background-image: linear-gradient(to right, var(--pink)), var(--purple);
   -webkit-background-clip: text;
-  cursor: pointer;
-  transition: 0.4s;
+  -webkit-text-fill-color: var(--pink);
+}
+
+.task .actions .delete {
+  color: crimson;
 }
